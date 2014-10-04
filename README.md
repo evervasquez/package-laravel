@@ -1,7 +1,5 @@
 ##Tutorial y ejemplo de un package para Laravel
-===============
-
-Tutorial y ejemplo de como crear un package en laravel
+Tutorial y ejemplo de como crear un package en laravel > 4.0
 
 ##TUTORIAL
 ####Paso 1
