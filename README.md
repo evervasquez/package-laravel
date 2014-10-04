@@ -8,7 +8,7 @@ Para crear un nuevo package para laravel se tiene que correr el comando de artis
 	
 	php artisan workbench vendor/package --resource
 
-donde vendor tiene que ser reemplazado por tu nombre y package el nombre del paquete.
+*donde vendor tiene que ser reemplazado por tu nombre y package el nombre del paquete.
 
 
 
