@@ -13,7 +13,8 @@ Para crear un nuevo package para laravel se tiene que correr el comando de artis
 Continuar con el tutorial de la pagina http://culttt.com/2013/06/24/creating-a-laravel-4-package
 
 
-###Instalación
+
+##INSTALACIÓN
 Agregar el service provider a `app/config/app.php`, escribir dentro del array `providers`.
 
 ```php
