@@ -1,10 +1,11 @@
-package-laravel
+##Tutorial y ejemplo de un package para Laravel
 ===============
 
 Tutorial y ejemplo de como crear un package en laravel
 
 
-Add the service provider to `app/config/app.php`, within the `providers` array.
+###Instalación
+Agregar el service provider a `app/config/app.php`, escribir dentro del `providers`.
 
 ```php
 'providers' => array(
@@ -12,3 +13,13 @@ Add the service provider to `app/config/app.php`, within the `providers` array.
 
 	'Anouar\Fpdf\FpdfServiceProvider',
 )
+
+Despúes, agregar el alias a `app/config/app.php`, dentro del array `aliases`.
+
+```php
+'aliases' => array(
+	// ...
+
+	'Fpdf'	  => 'Anouar\Fpdf\Fpdf',
+)
+```
