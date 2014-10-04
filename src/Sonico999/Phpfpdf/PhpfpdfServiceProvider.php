@@ -27,6 +27,8 @@ class PhpfpdfServiceProvider extends ServiceProvider {
 	 *
 	 * @return void
 	 */
+
+    //agregamos lo que esta en register con nombre de la app
 	public function register()
 	{
         $this->app['phpfpdf'] = $this->app->share(function($app)
@@ -34,6 +36,7 @@ class PhpfpdfServiceProvider extends ServiceProvider {
             return new Phpfpdf;
         });
 
+        //autocarga el aliases
         /*$this->app->booting(function()
         {
             $loader = AliasLoader::getInstance();
@@ -46,6 +49,8 @@ class PhpfpdfServiceProvider extends ServiceProvider {
 	 *
 	 * @return array
 	 */
+
+    //agregamos el nombre del paquete
 	public function provides()
 	{
 		return array('phpfpdf');

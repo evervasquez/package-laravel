@@ -1,16 +1,15 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Investigación2
- * Date: 04/10/14
- * Time: 01:12 AM
- */
 
 namespace Sonico999\Phpfpdf;
 use Anouar\Fpdf\Fpdf;
 
+/*
+ * aquí ponemos las funciones que serán llamadas al implementar el paquete
+ * */
 class Phpfpdf
 {
+
+    //función de ejemplo para llamar de modo estatico con el facade
     public function holamundo()
     {
         $fpdf = new Fpdf();
@@ -21,6 +20,7 @@ class Phpfpdf
         exit;
     }
 
+    //funcion 2
     public function ctm()
     {
         return 'que pasa ctm';
