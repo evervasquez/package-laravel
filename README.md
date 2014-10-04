@@ -3,6 +3,10 @@
 
 Tutorial y ejemplo de como crear un package en laravel
 
+##Tutorial
+Para crear un nuevo package para laravel se tiene que correr el comando de artisan:
+`php artisan workbench vendor/package --resource`
+donde vendor tiene que ser reemplazado por tu nombre y package el nombre del paquete.
 
 ###Instalación
 Agregar el service provider a `app/config/app.php`, escribir dentro del array `providers`.
